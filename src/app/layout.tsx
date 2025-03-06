@@ -1,8 +1,12 @@
 import type { Metadata } from "next"
-import { Rubik } from "next/font/google"
+import { Andika } from "next/font/google"
 import "./globals.css"
 
-const rubik = Rubik({ subsets: ["latin"] })
+const andika = Andika({
+    weight: ["400", "700"],
+    style: ["normal",  "italic"],
+    subsets: ["latin"],
+})
 
 export const metadata: Metadata = {
     title: "Weroniczka links",
@@ -17,7 +21,7 @@ export default function RootLayout({
     return (
         <html lang="en">
             <body
-                className={`${rubik.className} antialiased`}
+                className={`${andika.className} antialiased`}
             >
                 <div className="w-full min-h-dvh bg-pink-200" data-pattern="grid">
                     {children}
