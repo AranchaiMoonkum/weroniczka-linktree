@@ -27,7 +27,7 @@ body {
 
 body [data-pattern="grid"] {
     --rgb: 255 255 255;
-    --opacity: .04;
+    --opacity: .3;
     --size: 5rem 5rem;
     background-image: linear-gradient(to right, rgb(var(--rgb)/var(--opacity))1px, transparent 1px), linear-gradient(to bottom, rgb(var(--rgb)/var(--opacity))1px, transparent 1px);
     background-size: var(--size);
