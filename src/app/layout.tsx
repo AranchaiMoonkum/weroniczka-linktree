@@ -9,8 +9,8 @@ const andika = Andika({
 })
 
 export const metadata: Metadata = {
-    title: "Weroniczka links",
-    description: "Linktree for Weroniczka",
+    title: "Weroniczka",
+    description: "Links to my social media profiles and other places on the internet.",
 }
 
 export default function RootLayout({
