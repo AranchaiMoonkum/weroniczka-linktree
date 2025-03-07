@@ -23,7 +23,7 @@ export default function RootLayout({
             <body
                 className={`${andika.className} antialiased`}
             >
-                <div className="w-full min-h-dvh bg-pink-200" data-pattern="grid">
+                <div className="w-full min-h-dvh bg-pink-200" data-pattern="dots">
                     {children}
                 </div>
             </body>
