@@ -67,7 +67,7 @@ export default function Home() {
                         { href: "https://ystyle.co/1FTE", icon: <ShoppingCart size={16} />, text: "5% OFF at YesStyle: WER0090" },
                         { href: "https://www.yesstyle.com/en/influencers.html?irirco=WER0090&utm_term=WER0090&utm_medium=infreferral&mcg=influencer&utm_source=influencer&utm_campaign=iriprivate", icon: <Account size={16} />, text: "Become YesStyle Influencer" },
                         { href: "https://www.instagram.com/w_pawelczyk/", icon: <Instagram size={16} />, text: "Instagram" },
-                        { href: "https://www.instagram.com/w_pawelczyk/", icon: <Tiktok size={16} />, text: "TikTok" }
+                        { href: "https://www.tiktok.com/@_jjktth", icon: <Tiktok size={16} />, text: "TikTok" }
                     ].map((link, index) => (
                         <motion.a
                             key={index}
